@@ -1,14 +1,14 @@
 # Site
 title:              Commelier
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+bio:                'Android Developer'
+description:        "블로그 이사 중입니다."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://commelier.github.io/
+url:                https://commelier.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   commelier
+disqus_shortname:   bomeeryu
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -39,10 +39,10 @@ disqus_shortname:   commelier
 #bing-verify:
 #email:
 twitter:            _commelier
-facebook:           username
+#facebook:           username
 github-url:         commelier
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          bomee-ryu
 #xing:              username
 #instagram:          username
 #lastfm:            username
