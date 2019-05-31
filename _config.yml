@@ -1,7 +1,7 @@
 # Site
 title:              Commelier
 bio:                'Android Developer'
-description:        "블로그 이사 중입니다."
+description:        "진짜 이제 이사 안 할 거예요"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -26,13 +26,13 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   bomeeryu
+disqus_shortname:   commelier
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:        UA-140042027-1
   #verify:
   #ad-client:
   #ad-slot:

@@ -3,6 +3,7 @@ layout: post
 title: fork 뜬 jekyll-github page 블로그 Jekyll 로컬 환경 세팅하기
 date:   2019-05-14
 comments: true
+tags: [jekyll, githubpage]
 ---
 
 
