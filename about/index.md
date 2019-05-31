@@ -1,37 +1,45 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: Commelier
+tags: [about]
+date: 2019-05-31
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+### About me
+Hi! I am Commelier, Android Developer. Currently I live in Seoul, Korea.<br>
+I like to learn new technology such as AAC, Python etc.<br>
+And I am challenging to '100daysOfCode' with WWCSeoul.<br>
+If you want to see what I am doing on my personal project, click the link below!<br>
+<a href="https://twitter.com/commelier">go to commelier's twitter</a>
+### Experience
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+**Android Developer** @Cashwalk
+Seoul, Korea - _2018 to 2019_<br>
+Developed and Maintained Android Application 'Cashwalk'<br>
+Kotlin, JAVA, MVP Pattern<br>
 
-## Preview
+**Android Developer** @FlowNS
+Seoul,Korea - _2018_<br>
+Developed and Maintained Android Application 'GongsaPD'<br>
+Kotlin, RxJAVA, MVVM Pattern, Databinding, JetPack Navigation<br>
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+**Mobile Application Developer** @Cdefinition
+Seoul, Korea - _2017_<br>
+Developed E-ordering and Entertaining Program Using Unity5<br>
+JAVA, RxJAVA, Unity5, C#<br>
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+### Projects
+* **Cashwalk**
 
-## Getting Started
+* **Cashwalk Taiwan**
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+* **GongsaPD**
+
+### Education
+
+Majored in Computer Software (Bachelor's degree)<br>
+** University @Seoul, Korea - _2014 to 2018_<br>
+
+Majored in Contemporary Music Composition<br>
+** Universitiy @Seoul, Korea - _2013_<br>
