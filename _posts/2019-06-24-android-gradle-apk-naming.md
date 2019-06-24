@@ -2,13 +2,13 @@
 layout: post
 title: 안드로이드 APK 파일 이름 설정하기
 excerpt : "다른 포지션의 팀원들과 효율적인 APK 공유를 위한 네이밍하기"
-date:   2019-06-09
+date:   2019-06-24
 tags: [android, gradle, tip]
 comments: true
 ---
 # 안드로이드 APK 파일 이름 설정하기
 <br><br>
-💭
+
 
 ---
 
