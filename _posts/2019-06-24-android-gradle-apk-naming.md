@@ -79,7 +79,7 @@ comments: true
                         outputFileName = "${applicationName}-${variant.getFlavorName()}-${variant.buildType.name}-${defaultConfig.versionName}(${defaultConfig.versionCode}).apk"
                     }
 
-설정해줘야 하는 건 이게 끝이다. 다양한 문법이 인터넷에 올라와 있는데 이 문법이 가독성은 떨어지지만 잘 작동했다. 순서대로 `앱이름-앱flaver이름-앱buildType-버전이름-버전코드.apk` 이다. 내가 릴리즈용 앱을 한국어로 빌드한다면 apk파일명은 `앱이름-korean-release-1.0.0(1).apk` 로 뽑히게 된다.이 프로젝트는 해외 릴리즈용 프로젝트였기 때문에 언어 설정을 분리했었고, 그래서 flavor이름으로는 해당 언어를 나타냈다. 그리고 서버타입에 따라 buildType을 나타냈고, 버전 이름과 버전 코드를 그 뒤에 붙였다. <br><br>그렇지만 하루에 한 번만 내가 APK를 공유하는 건 아니기 때문에 이름을 수정해야 한다는 불편함은 여전히 있다. 그 불편함을 해결하는 아주 간단한 방법으로는 **버전코드를 Build 할 때마다 증가**시키거나 **타임 스탬프**를 찍는 것이다.
+설정해줘야 하는 건 이게 끝이다. 다양한 문법이 인터넷에 올라와 있는데 이 문법이 가독성은 떨어지지만 잘 작동했다. 순서대로 `앱이름-앱flavor이름-앱buildType-버전이름-버전코드.apk` 이다. 내가 릴리즈용 앱을 한국어로 빌드한다면 apk파일명은 `앱이름-korean-release-1.0.0(1).apk` 로 뽑히게 된다.이 프로젝트는 해외 릴리즈용 프로젝트였기 때문에 언어 설정을 분리했었고, 그래서 flavor 이름으로는 해당 언어를 나타냈다. 그리고 서버타입에 따라 buildType을 나타냈고, 버전 이름과 버전 코드를 그 뒤에 붙였다. <br><br>그렇지만 하루에 한 번만 내가 APK를 공유하는 건 아니기 때문에 이름을 수정해야 한다는 불편함은 여전히 있다. 그 불편함을 해결하는 아주 간단한 방법으로는 **버전코드를 Build 할 때마다 증가**시키거나 **타임 스탬프**를 찍는 것이다.
 
 사실 모든 빌드 과정에서 버전 코드를 증가시키는 것은 효율적이지 않다. 나는 업데이트 횟수를 버전 코드를 통해 확인하는 편이라서 (프로젝트에서 세 번째 릴리즈가 나갔다면 버전 코드는 3이어야 함.) Timestamp를 이용하는 것이 좋다.
 <br><br><br>
@@ -108,3 +108,5 @@ gradle 마지막 줄에 위와 같은 메서드를 추가하고, 아까 apk 이�
 - 빌드할 때마다 버전 코드를 올려주는 방법
 
 [Autoincrement VersionCode with gradle extra properties](https://stackoverflow.com/questions/21405457/autoincrement-versioncode-with-gradle-extra-properties)
+
+- **2019.06.29 추가** 빌드 타입 안에 `applicationVariants ~` 구문을 넣지 않고 밖으로 빼도 동일 동작가능함.
