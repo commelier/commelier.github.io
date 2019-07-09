@@ -1,11 +1,11 @@
 # Site
 title:              Commelier
 bio:                'Android Developer'
-description:        "진짜 이제 이사 안 할 거예요"
+description:        'Android Developer'
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/new_background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://commelier.github.io
